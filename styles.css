@@ -33,6 +33,7 @@
     --button-color-active: #188CE8;
     --logo-header: #000000;
     --contacts-footer: rgba(255, 255, 255, 0.6);
+    --social-links: #AFB1B8;
 }
 
 .page {
@@ -154,6 +155,12 @@ margin-right: 50px;
 margin-right: 50px
 }
 
+.link-address {
+display: block;
+gap: 10px;
+align-items: flex-start;
+}
+
 /* Общие для ссылок */
 .link:hover,
 .link:focus {
@@ -184,8 +191,7 @@ color: var(--link-active);
 /* HERO */
 
 .hero {
-background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
-background-image: url(../images/hero.jpg);
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
 background-color: var(--secondary-bkgcolor);
 max-width: 1600px;
 background-position: center;
@@ -332,7 +338,46 @@ font-size: 16px;
 text-align: center;
 line-height: 1.19;
 color: var(--secondary-color);
+padding-bottom: 16px;
+}
+
+.socials {
+display: flex;
+gap: 10px;
+justify-content: center;
+}
+
+.social-links {
+width: 44px;
+height: 44px;
+background-color: var(--primary-bkgcolor);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--social-links);
+}
+
+.social-links:hover,
+.social-links:focus {
+color: var(--hero-color);
+background-color: var(--link-active);
+}
+
+.socials-icon {
+fill: currentColor;
+}
+
+/* .socials-item {
 padding-bottom: 30px;
+} */
+
+/* CLIENTS */
+
+.clients-list {
+display: flex;
+gap: 30px;
+
 }
 
 /* Footer */
