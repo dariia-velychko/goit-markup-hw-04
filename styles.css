@@ -184,7 +184,7 @@ color: var(--link-active);
 /* HERO */
 
 .hero {
-background-image: url(../goit-markup-hw-04/images/hero.jpg);
+background-image: url(../images/hero.jpg);
 background-color: var(--secondary-bkgcolor);
 max-width: 1600px;
 background-position: center;
