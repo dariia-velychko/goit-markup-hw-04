@@ -414,12 +414,7 @@ border: 1px solid var(--social-links);
 border-radius: 4px;
 width: 170px;
 height: 92px;
-
 }
-
-/* .clients-link {
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); ;
-} */
 
 .clients-link:hover,
 .clients-link:focus {
